@@ -6,22 +6,32 @@
     <head>
         <title>Muniz Developer</title>
         <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Oswald:wght@200&display=swap" rel="stylesheet">
+
         <style>
             .font-nome {
-                font-family: 'Times New Roman', Times, serif;
+                font-family: 'Oswald';
             }
             .font-descricao {
-                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-family: 'Cormorant Garamond';
                 font-style: italic;
+                font-size: 25px;
+                line-height: 5px;
             }
             
             .body-color {
-                background-color: #EAF6FF;           
+                background-color: #EAF6FF;
+                text-align: center;                       
             }
 
             .habilidades {
                 font-size: 20px;
-                font-style: oblique;
+                font-style:normal;
+            }
+            .foto-perfil {
+                border-radius: 50%;
+                border: 3px solid #2a2a72;
             }
 
 
@@ -30,6 +40,7 @@
     </head>
     
     <body class="body-color">
+        <!--Índice-->
         <h1>Índice</h1>
         <ol>
             <a href="#nome"><li>Nome</li></a>
@@ -39,7 +50,7 @@
             <a href="#blog"><li>Blog</li></a>
         </ol>
         <h2 class="font-nome" id="nome"> Vinicius Muniz Marin </h2>
-        <img src="https://i.imgur.com/WdMG3HS.jpg?1" alt="Imagem de perfil" width="100">      
+        <img class="foto-perfil" src="https://i.imgur.com/WdMG3HS.jpg?1" alt="Imagem de perfil" width="150px">      
     
             <p id="descricao" class="font-descricao">Nacionalidade: Brasileiro</p>
             <p class="font-descricao">Cidade: São José dos Campos - SP</p>

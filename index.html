@@ -1,15 +1,35 @@
 <!DOCTYPE HTML>
+<!--paleta de cores: https://coolors.co/ffa400-009ffd-2a2a72-232528-eaf6ff-->
 
 <html>
 
     <head>
-
-        <title>Derivação de "Desafio: Sua lista de aprendizagem"</title>
+        <title>Muniz Developer</title>
         <meta charset="utf-8">
+        <style>
+            .font-nome {
+                font-family: 'Times New Roman', Times, serif;
+            }
+            .font-descricao {
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-style: italic;
+            }
+            
+            .body-color {
+                background-color: #EAF6FF;           
+            }
+
+            .habilidades {
+                font-size: 20px;
+                font-style: oblique;
+            }
+
+
+        </style>
 
     </head>
     
-    <body>
+    <body class="body-color">
         <h1>Índice</h1>
         <ol>
             <a href="#nome"><li>Nome</li></a>
@@ -18,25 +38,21 @@
             <a href="#foto"><li>Foto</li></a>
             <a href="#blog"><li>Blog</li></a>
         </ol>
-        <h2 id="nome"> Vinicius Muniz Marin </h2>
+        <h2 class="font-nome" id="nome"> Vinicius Muniz Marin </h2>
         <img src="https://i.imgur.com/WdMG3HS.jpg?1" alt="Imagem de perfil" width="100">      
-        <h3 id="descricao">
-            <p>Nacionalidade: Brasileiro</p>
-            <p>Cidade: São José dos Campos - SP</p>
-        </h3>
-        <ul id="habilidades">
+    
+            <p id="descricao" class="font-descricao">Nacionalidade: Brasileiro</p>
+            <p class="font-descricao">Cidade: São José dos Campos - SP</p>
+
+        <ul id="habilidades" class="habilidades">
             <li>Unix & Bash</li>
             <li><strong>Shell Script</strong></li>
             <li>HTML</li>
         </ul>
-        <h3 id="foto">
-            <a href="https://i.imgur.com/WdMG3HS.jpg?1"> FOTO </a>
-        </h3>
-        
+            <a id="foto" href="https://i.imgur.com/WdMG3HS.jpg?1"> FOTO </a>
         <hr>
-        <h3 id="blog">
-        <a id="#blog" href="https://www.essemundoenosso.com.br/">BLOG - ESSE MUNDO É NOSSO</a>
-        </h3>        
+        
+        <a id="blog" href="https://www.essemundoenosso.com.br/">BLOG - ESSE MUNDO É NOSSO</a>      
     </body>
 
 </html>

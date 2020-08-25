@@ -1,0 +1,32 @@
+<style>
+    .body-color {
+        background-color: #EAF6FF;                       
+    }
+    .font-nome {
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+    }
+    .foto-perfil {
+        border-radius: 50%;
+        float: left;
+        margin: 35px;
+    }
+    .font-descricao {
+        font-family: 'Cormorant Garamond';
+        font-style: italic;
+        font-size: 20px;
+    }
+    .infos {
+        background-color: rebeccapurple;
+        height: 300px;
+        padding: 0px 50px;
+        
+    }
+    .infos p {
+        margin-top: 70px;
+    }
+    .habilidades {
+        font-size: 20px;
+        font-style:normal;
+    }
+</style>

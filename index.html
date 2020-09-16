@@ -3,42 +3,70 @@
 
 <html>
 
-    <head>
-        <title>Muniz Developer</title>
-        <meta charset="utf-8">
-        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Oswald:wght@200&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="style.css" />
+<head>
+    <title>Muniz Developer</title>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
 
-    </head>
-
-    <body class="body-color">
-
+<body class="body-color">
+    <div class="indice">
         <!--Índice-->
         <h1>Índice</h1>
-        <ol>
-            <a href="#nome"><li>Nome</li></a>
-            <a href="#descricao"><li>Descrição</li></a>
-            <a href="#habilidades"><li>Habilidades</li></a>
-            <a href="#foto"><li>Foto</li></a>
-            <a href="#blog"><li>Blog</li></a>
+        <ol class="lista-indice">
+            <a href="#nome">
+                <li>Nome</li>
+            </a>
+            <a href="#descricao">
+                <li>Descrição</li>
+            </a>
+            <a href="#habilidades">
+                <li>Habilidades</li>
+            </a>
+            <a href="#foto">
+                <li>Foto</li>
+            </a>
+            <a href="#blog">
+                <li>Blog</li>
+            </a>
         </ol>
-        <div class="infos">
+    </div>
+    <hr>
+    <!-- Sobre Mim -->
+    <div class="infos">
         <h2 id="nome" class="font-nome">Vinicius Muniz Marin</h2>
-            <img class="foto-perfil" src="https://i.imgur.com/WdMG3HS.jpg" alt="Imagem de perfil" width="150px">      
-            <p id="descricao" class="font-descricao">Nacionalidade: Brasileiro</p>
-            <p class="font-descricao">Cidade: São José dos Campos - SP</p>     
-        </div>
+        <img class="foto-perfil" src="https://i.imgur.com/WdMG3HS.jpg" alt="Imagem de perfil" width="150px">
+        <p id="descricao" class="font-descricao">Nacionalidade: Brasileiro</p>
+        <p class="font-descricao">Cidade: São José dos Campos - SP</p>
+    </div>
+    <hr>
+    <!-- Competencias -->
+    <div class="competencias">
         <ul id="habilidades" class="habilidades">
+            <h3>Hard Skills</h3>
             <li>Unix & Bash</li>
             <li><strong>Shell Script</strong></li>
             <li>HTML & CSS</li>
+            <li>Git & GitHub</li>
+            <li>Internet</li>
         </ul>
-            <a id="foto" href="https://i.imgur.com/WdMG3HS.jpg?1"> FOTO </a>
-        <hr>
-        
-        <a id="blog" href="https://www.essemundoenosso.com.br/">BLOG - ESSE MUNDO É NOSSO</a>      
-    </body>
+        <ul id="soft-skills" class="soft-skills">
+            <h3>Soft Skills</h3>
+            <li>Criatividade</li>
+            <li><strong>Empatia</strong></li>
+            <li>Autoconsciência</li>
+            <li>Autorregulação</li>
+            <li>Automotivação</li>
+            <li>Relacões Interpessoais</li>
+        </ul>
+    </div>
+    <hr>
+    <footer class="curiosidades">
+        <a id="foto" href="https://i.imgur.com/WdMG3HS.jpg?1"> LINK FOTO </a>
+        <br>
+        <a id="blog" href="https://www.essemundoenosso.com.br/">BLOG - ESSE MUNDO É NOSSO</a>
+    </footer>
+</body>
 
 </html>
-

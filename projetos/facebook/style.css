@@ -1,0 +1,194 @@
+body {
+  background-image: linear-gradient(180deg, white 0%, rgba(74, 113, 196, 0.28) 100%);
+  background-repeat: no-repeat;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.btn-login {
+  background-color: rgb(74, 113, 193);
+  border: 1px solid rgb(34, 48, 76);
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  height: 26px;
+  padding: 2px;
+  width: 60px;
+}
+
+.facebook-login {
+  display: flex;
+}
+
+.left-content {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+}
+
+.right-content {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.full-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.account-input {
+  border: 1px solid rgb(225, 225, 225);
+  border-radius: 5px;
+  height: 30px;
+  margin: 3px 0;
+  padding-left: 10px;
+}
+
+.full-name input {
+  width: 130px;
+}
+
+.facebook-login input {
+  width: 200px;
+}
+
+.form-control {
+  align-self: flex-end;
+  display: flex;
+  margin-bottom: 16px;
+  max-width: 1366px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.form-group input {
+  border-radius: 5px;
+  height: 20px;
+  width: 180px;
+}
+
+.form-group label {
+  color: white;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 5px 0;
+}
+
+.form-group a {
+  color: white;
+  font-size: 12px;
+  margin: 0;
+  margin-top: 2px;
+  text-decoration: none;
+}
+
+.top-bar {
+  align-items: center;
+  background-color: rgb(66, 103, 178);
+  display: flex;
+  justify-content: space-between;
+  max-width: 1366px;
+  padding: 10px 0;
+}
+
+.facebook-logo {
+  width: 180px;
+}
+
+.main-content {
+  align-items: flex-start;
+  display: flex;
+}
+
+.main-size {
+  height: 680px;
+  max-width: 1366px;
+}
+
+.new-account {
+  display: flex;
+  flex-direction: column;
+}
+
+.new-account-label {
+  color: rgb(150, 150, 150);
+  font-size: 12px;
+  font-weight: 900;
+  margin-top: 15px;
+}
+
+.gender-label {
+  align-items: center;
+  display: flex;
+  font-size: 12px;
+}
+
+.gender-label input {
+  border: 5px solid #b8b8b8;
+}
+
+.gender {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.accept-terms {
+  color: #8a8a8a;
+  font-size: 10px;
+  font-weight: 700;
+  width: 285px;
+}
+
+.accept-terms a {
+  color: #4f509f;
+  text-decoration: none;
+}
+
+.button-register {
+  background-color: rgb(104, 157, 104);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  height: 40px;
+  margin: 20px 0;
+  width: 150px;
+}
+
+.left-content p {
+  color: rgb(32, 53, 91);
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 50px;
+  width: 380px;
+}
+
+.left-content img {
+  height: 250px;
+  margin-top: 20px;
+  width: 600px;
+}
+
+.right-content-title {
+  font-weight: 900;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+.quick-easy {
+  margin-bottom: 15px;
+}
+
+::placeholder {
+  color: #b8b8b8;
+}
